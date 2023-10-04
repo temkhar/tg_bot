@@ -3,10 +3,10 @@ const {Sequelize} = require('sequelize');
 module.exports = new Sequelize(
     'tg_bot',
     'root',
-    'root',
+    'fDGgUKAfBV0y',
     {
-        host: '5.188.129.91',
-        port: '6432',
+        host: '5.188.129.92',
+        port: '5432',
         dialect: 'postgres'
     }
 )
